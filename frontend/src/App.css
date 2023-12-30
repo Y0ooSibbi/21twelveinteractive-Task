@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #3498db;
+}
+
+form {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #333;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px; /* Add margin to create space between buttons */
+}
+
+button.primary {
+  margin-left: 10px; /* Add margin to the left of the primary button */
+  background-color: hsl(30, 91%, 50%); /* Change the color to green */
+  font-size: 14px; /* Reduce the font size for the "Add Todo" button */
+  width: 8rem;
+  height: 2rem;
+  margin-right: 10px; /* Add margin to create space between buttons */
+  margin-bottom: 10px;
+}
+
+button.secondary {
+  background-color: #e74c3c; /* Change the color to red */
+  margin-left: 0; /* Remove the left margin to align with the primary button */
+}
+
+
+
+button:hover {
+  background-color: #2980b9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+td {
+  background-color: #fff;
+}
+
+button.secondary {
+  background-color: #e67e22;
+  margin-left: 10px;
+}
+
+button.secondary:hover {
+  background-color: #d35400;
+}
